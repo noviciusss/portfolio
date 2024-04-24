@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #081b29;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    
+    align-items: center;
+    z-index:100;
+}
+.header .logo{
+    color: #ededed;
+    font-weight: 900;
+    font-size: 27px;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 17px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .8s;
+}
+.navbar a:hover{
+    color: #00abf0;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    color: #ededed;
+    font-size: 22px;
+    font-weight: 600;
+    padding:0 10%;
+    background: url('/home/noviciusss/Downloads/Blue And Purple 90s Anime Guy Leaning Desktop Wallpaper(1).png') ;
+    
+}
+.home h2 span {
+    background: none;
+    -webkit-text-fill-color: initial;
+}
+.home h2{
+    background:linear-gradient(to right,#cfaccc,black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.home-content{
+    max-width:800px;    
+    transition: .4s;
+
+}
+.home-content:hover{
+    transform: scale(1.04);
+}
+.button{
+    max-width: fit-content;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+    padding-right: 15px;
+    justify-content: space-between;
+    gap: 19px;
+}
+.button a {
+    margin-right: 15px; 
+}
+.button > .linkedin-logo, .github-logo ,.gmail-logo,.discord-logo{
+    display: inline-block;
+    transition: transform 0.3s ease; 
+}
+
+.button > .linkedin-logo:hover,.github-logo:hover,.gmail-logo:hover ,.discord-logo:hover{
+    transform: scale(.8); 
+}
+.about {
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    color: #ededed;
+    font-size: 2px;
+    font-weight: 600;
+
+}
+
+.skills {
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    padding-left:5% ;
+    padding-top: 5%;
+}
+
+.skills h1{
+    color: #ededed;
+    font-size: 50px;
+    font-weight: 800;
+    transition: .7s;
+    font-family: overpass;
+    text-shadow: -1px 0 #ededed, 0 1px #ededed, 1px 0 #ededed, 0 -1px #ededed;
+    margin-left: 10%;
+}
+
+.skills h1:hover {
+    transform: scale(1.04);
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    margin-left: -22%; /* Add this line */
+}
+.skill-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+    border: #0084f0 2px solid;
+    border-radius: 8%;
+    padding: 10px;
+    ;
+    
+}
