@@ -68,7 +68,7 @@ body{
     transform: scale(1.04);
 }
 .button{
-    max-width: fit-content;
+
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -90,23 +90,14 @@ body{
     transform: scale(.8); 
 }
 .about {
-    display: flex;
-    justify-content: center;
-    
     height: 100vh;
     color: #ededed;
     font-size: 2px;
     font-weight: 600;
+    padding:0 10%;
 
 }
 
-.skills {
-    justify-content: center;
-    align-items: center;
-    height: 100%; 
-    padding-left:5% ;
-    padding-top: 5%;
-}
 
 .skills h1{
     color: #ededed;
@@ -115,29 +106,45 @@ body{
     transition: .7s;
     font-family: overpass;
     text-shadow: -1px 0 #ededed, 0 1px #ededed, 1px 0 #ededed, 0 -1px #ededed;
-    margin-left: 10%;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .skills h1:hover {
     transform: scale(1.04);
 }
 
-.skill-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10%;
-    margin-left: -22%; /* Add this line */
-}
+
 .skill-row{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-top: 20px;
-    border: #0084f0 2px solid;
-    border-radius: 8%;
+    gap: 100px;
     padding: 10px;
-    ;
     
+
+}
+.project-container{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    max-width: auto;
+
+}
+.project h1{
+    color: #ededed;
+    font-size: 50px;
+    font-weight: 800;
+    transition: .7s;
+    font-family: overpass;
+    text-shadow: -1px 0 #ededed, 0 1px #ededed, 1px 0 #ededed, 0 -1px #ededed;
+    text-align: center;
+    margin: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.NyxText,.Portifolio{
+max-width:28%;
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
