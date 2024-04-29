@@ -96,7 +96,9 @@ body{
     padding:0 10%;
 
 }
-
+.skills{
+    order: 1;
+}
 
 .skills h1{
     color: #ededed;
@@ -105,23 +107,152 @@ body{
     transition: .7s;
     font-family: overpass;
     text-shadow: -1px 0 #ededed, 0 1px #ededed, 1px 0 #ededed, 0 -1px #ededed;
-    text-align: center;
-    padding-top: 30px;
+    max-width:min-content;
+    padding-top: 85px;
+    padding-left:25px ;
 }
 
 .skills h1:hover {
-    transform: scale(1.04);
+    transform: scale(1.2);
 }
 
 
 .skill-row{
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding: 10px;
+    gap: 30px;
+    padding-top: 16px;
     
 
 }
+
+.about1 h1{
+    color: #ededed;
+    font-size: 50px;
+    font-weight: 800;
+    transition: .7s;
+    font-family: overpass;
+    text-shadow: -1px 0 #ededed, 0 1px #ededed, 1px 0 #ededed, 0 -1px #ededed;
+    text-decoration: underline;
+    padding-top: 85px;
+    padding-left:25px ;
+    max-width: 350px;
+}
+
+.about1 h1:hover {
+    transform: scale(1.2);
+}
+
+.about1, .skills, .projects {
+    flex: 1;
+    margin: 10px;
+}
+.about1 p{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.8;
+}
+.project-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    max-width:400px;
+    transform: translateY(-810px);
+    align-items: right;
+    font-size: 20px;
+    padding-right: 15px;
+    
+}
+.projects h1{
+    color: #ededed;
+    font-size: 50px;
+    font-weight: 800;
+    transition: .7s;
+    font-family: overpass;
+    text-shadow: -1px 0 #ededed, 0 1px #ededed, 1px 0 #ededed, 0 -1px #ededed;
+    text-align: right;
+    margin: 25px;
+    transform: translateY(-810px);
+    padding-bottom: 25px;
+    
+}
+.projects{
+    max-height: min-content;
+    order: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .project-container{
     display: flex;
     font-size: 20px;
