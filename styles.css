@@ -110,6 +110,7 @@ body{
     max-width:min-content;
     padding-top: 85px;
     padding-left:25px ;
+    align-items: center;
 }
 
 .skills h1:hover {
@@ -134,18 +135,16 @@ body{
     text-shadow: -1px 0 #ededed, 0 1px #ededed, 1px 0 #ededed, 0 -1px #ededed;
     text-decoration: underline;
     padding-top: 85px;
-    padding-left:25px ;
+    padding-left:15px ;
     max-width: 350px;
+    text-align: center;
 }
 
 .about1 h1:hover {
     transform: scale(1.2);
 }
 
-.about1, .skills, .projects {
-    flex: 1;
-    margin: 10px;
-}
+
 .about1 p{
     font-size: 20px;
     padding-top: 25px;
@@ -162,7 +161,6 @@ body{
     margin-bottom: 15px;
     margin-left: auto;
     max-width:400px;
-    transform: translateY(-810px);
     align-items: right;
     font-size: 20px;
     padding-right: 15px;
@@ -175,17 +173,20 @@ body{
     transition: .7s;
     font-family: overpass;
     text-shadow: -1px 0 #ededed, 0 1px #ededed, 1px 0 #ededed, 0 -1px #ededed;
-    text-align: right;
+    text-align: center;
     margin: 25px;
-    transform: translateY(-810px);
     padding-bottom: 25px;
     
 }
 .projects{
-    max-height: min-content;
+    margin-left: 190px;
     order: 2;
-}
+    display: inline-block;
 
+}
+.left{
+    display: inline-block;
+}
 
 
 
