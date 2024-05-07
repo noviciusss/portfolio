@@ -46,6 +46,8 @@ body{
     font-weight: 600;
     padding:0 10%;
     background: url('Assets/background1.png');
+    background-size: cover; 
+    background-position: center; 
 }
 .home h2 span {
     background: none;
@@ -178,12 +180,11 @@ body{
     padding-bottom: 25px;
     
 }
-.projects{
-    margin-left: 190px;
-    order: 2;
+.projects {
     display: inline-block;
-
 }
+
+
 .left{
     display: inline-block;
 }
